@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7676214819A46B4C00A31466 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7676214719A46B4C00A31466 /* SettingsViewController.swift */; };
 		76D170E419A30B0C0004EDCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D170E319A30B0C0004EDCA /* AppDelegate.swift */; };
 		76D170E619A30B0C0004EDCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D170E519A30B0C0004EDCA /* ViewController.swift */; };
 		76D170E919A30B0C0004EDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D170E719A30B0C0004EDCA /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7676214719A46B4C00A31466 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		76D170DE19A30B0C0004EDCA /* Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D170E219A30B0C0004EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76D170E319A30B0C0004EDCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7676214619A46AA400A31466 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7676214719A46B4C00A31466 /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		76D170D519A30B0C0004EDCA = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		76D170E019A30B0C0004EDCA /* Tips */ = {
 			isa = PBXGroup;
 			children = (
+				7676214619A46AA400A31466 /* View Controllers */,
 				76D170E319A30B0C0004EDCA /* AppDelegate.swift */,
 				76D170E519A30B0C0004EDCA /* ViewController.swift */,
 				76D170E719A30B0C0004EDCA /* Main.storyboard */,
@@ -210,6 +221,7 @@
 			files = (
 				76D170E619A30B0C0004EDCA /* ViewController.swift in Sources */,
 				76D170E419A30B0C0004EDCA /* AppDelegate.swift in Sources */,
+				7676214819A46B4C00A31466 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +409,7 @@
 				76D170FC19A30B0D0004EDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76D170FD19A30B0D0004EDCA /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +418,7 @@
 				76D170FF19A30B0D0004EDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
